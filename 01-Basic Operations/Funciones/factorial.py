@@ -1,0 +1,10 @@
+import sys
+def factorial(num):
+    if num>1:
+        return num*factorial(num-1)
+    else:
+        return 1
+
+number=int(sys.argv[1])
+
+print(factorial(number))
